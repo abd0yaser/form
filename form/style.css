@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Hacen Algeria Hd";
+  src: url("./alfont_com_Hacen-Algeria-Hd.ttf");
+}
+.navbar {
+  border-bottom: solid black;
+  display: flex;
+}
+
+.logo {
+  border-right: solid;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.log {
+  padding-left: 5px;
+}
+
+.polica {
+  color: #000;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+  font-family: "Hacen Algeria Hd";
+}
+.text {
+  color: #858585;
+
+  font-family: "Hacen Algeria Hd";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+  margin-top: 16px;
+  margin-right: 22px;
+}
+button {
+  border-radius: 20px;
+  background: #151414;
+  color: white;
+  width: 107px;
+  height: 26px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 16px 6px 15px;
+  margin-top: 10px;
+  margin-left: 93;
+  margin-right: 97;
+}
+
+img {
+  width: 90px;
+  height: 28px;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat;
+  margin: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+td {
+  border-bottom: 1px solid black;
+  padding: 8px;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #b6b5b5;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+}
