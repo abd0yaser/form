@@ -15,9 +15,9 @@ function App() {
   };
   return (
     <div className="App">
-      {/* {!isFormVisible && <Print handlePrint={handlePrint} />}
-      {isFormVisible && <Form />} */}
-      <Form />
+      {!isFormVisible && <Print handlePrint={handlePrint} />}
+      {isFormVisible && <Form />}
+      {/* <Form /> */}
     </div>
   );
 }
