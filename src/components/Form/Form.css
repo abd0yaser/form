@@ -2,6 +2,9 @@
   font-family: "Hacen Algeria Hd";
   src: url("../../assets/alfont_com_Hacen-Algeria-Hd.ttf");
 }
+#form {
+  border: solid BLACK;
+}
 
 .navbar {
   border-bottom: solid black;
@@ -11,10 +14,6 @@
 .logo {
   margin-top: 10px;
   border-right: solid;
-  height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40%;
 }
 .log {
@@ -23,11 +22,8 @@
 
 .polica {
   color: #000;
-  font-family: Arial;
   font-size: 12px;
-  font-style: normal;
   font-weight: 1000;
-  line-height: normal;
   font-family: "Hacen Algeria Hd";
 }
 .text {
@@ -35,12 +31,8 @@
 
   font-family: "Hacen Algeria Hd";
   font-size: 10px;
-  font-style: normal;
   font-weight: 1000;
-  line-height: normal;
   margin-top: 16px;
-  margin-right: 22px;
-  display: block;
 }
 
 button {
@@ -51,9 +43,7 @@ button {
   color: #fff;
   font-family: Arial;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   padding: 6px 16px 6px 15px;
   margin-top: 10px;
   margin-left: 93;
@@ -64,7 +54,7 @@ img {
   width: 90px;
   height: 28px;
   flex-shrink: 0;
-  background: lightgray 50% / cover no-repeat;
+  background: white 50% / cover no-repeat;
   margin: 10px;
 }
 
@@ -81,15 +71,15 @@ table {
   margin-right: 10px;
   border-spacing: 0cap;
   width: 100%;
+  border: solid 1px;
+  direction: rtl;
 }
 
 td {
   padding: 8px;
   font-family: Arial;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-align: right;
 }
 
@@ -97,7 +87,8 @@ p {
   color: #b6b5b5;
   font-family: Poppins;
   font-size: 10px;
-  font-style: normal;
   font-weight: 1000;
-  line-height: normal;
+}
+.container {
+  display: flex;
 }

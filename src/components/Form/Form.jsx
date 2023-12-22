@@ -5,17 +5,13 @@ import logoImage from "../../assets/logo.png";
 export default function Form() {
   return (
     <div>
-      <div style={{ border: "solid" }} id="container">
+      <div id="form">
         <div className="navbar">
-          <div className="logo" style={{ height: "100%" }}>
-            <img
-              style={{ backgroundColor: "white" }}
-              src={logoImage}
-              alt="logo"
-            />
+          <div className="logo">
+            <img src={logoImage} alt="logo" />
           </div>
           <div className="log">
-            <div className="text" style={{ display: "block" }}>
+            <div className="text">
               ................./.................../....................
             </div>
             <div className="polica">بوليصة استلام شحنة</div>
@@ -24,8 +20,8 @@ export default function Form() {
         <div className="client text-center bg-black">
           <button type="button">معلومات العميل</button>
         </div>
-        <div className="container" style={{ display: "flex" }}>
-          <table border="solid 1px" dir="rtl">
+        <div className="container">
+          <table>
             <tbody>
               <tr>
                 <td>الاســــم :</td>
