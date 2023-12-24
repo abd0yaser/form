@@ -7,13 +7,13 @@
 }
 
 .navbar {
-  border-bottom: solid black;
+  border-bottom: 1px solid black;
   display: flex;
 }
 
 .logo {
   margin-top: 10px;
-  border-right: solid;
+  border-right: 1px solid;
   width: 40%;
 }
 .log {
@@ -23,7 +23,7 @@
 .polica {
   color: #000;
   font-size: 12px;
-  font-weight: 1000;
+  font-weight: 400;
   font-family: "Hacen Algeria Hd";
 }
 .text {
@@ -38,16 +38,15 @@
 button {
   border-radius: 20px;
   background: #151414;
-  width: 107px;
+  width: 120px;
   height: 26px;
   color: #fff;
-  font-family: Arial;
   font-size: 12px;
   font-weight: 400;
-  padding: 6px 16px 6px 15px;
   margin-top: 10px;
   margin-left: 93;
   margin-right: 97;
+  font-family: "Hacen Algeria Hd";
 }
 
 img {
@@ -65,13 +64,17 @@ body {
 }
 
 table {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 21px;
+  margin-right: 19px;
+
   border-spacing: 0cap;
   width: 100%;
-  border: solid 1px;
+  border-left: solid 1px;
+  border-top: solid 1px;
+  border-right: solid 1px;
+
   direction: rtl;
 }
 
@@ -81,6 +84,7 @@ td {
   font-size: 12px;
   font-weight: 400;
   text-align: right;
+  border-bottom: 1px solid;
 }
 
 p {
