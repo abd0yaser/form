@@ -2,6 +2,15 @@
   font-family: "Hacen Algeria Hd";
   src: url("../../assets/alfont_com_Hacen-Algeria-Hd.ttf");
 }
+
+.printable-form {
+  @media print {
+    display: block;
+  }
+
+  display: none;
+}
+
 #form {
   border: solid BLACK;
 }

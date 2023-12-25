@@ -4,7 +4,7 @@ import logoImage from "../../assets/logo.png";
 
 export default function Form() {
   return (
-    <div>
+    <div className="printable-form">
       <div id="form">
         <div className="navbar">
           <div className="logo">
