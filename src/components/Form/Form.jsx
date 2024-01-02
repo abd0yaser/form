@@ -7,8 +7,10 @@ export default function Form() {
     <div className="printable-form">
       <div id="form">
         <div className="navbar">
-          <div className="logo">
-            <img src={logoImage} alt="logo" />
+          <div className="left">
+            <div className="logo">
+              <img src={logoImage} alt="logo" />
+            </div>
           </div>
           <div className="log">
             <div className="text">

@@ -12,54 +12,69 @@
 }
 
 #form {
-  border: solid BLACK;
+  width: 485px;
+  height: 595px;
+  /* border: 1px solid; */
 }
 
 .navbar {
   border-bottom: 1px solid black;
   display: flex;
 }
-
+.left {
+  border-right: #000 solid 1px;
+  margin-top: 15px;
+}
 .logo {
-  margin-top: 10px;
-  border-right: 1px solid;
-  width: 40%;
+  margin-top: 14px;
+  margin-left: 18px;
+  margin-bottom: 19px;
+  width: 129px;
+  height: 41px;
+  flex-shrink: 0;
+  margin-right: 14px;
 }
 .log {
-  padding-left: 5px;
+  width: 100%;
 }
 
 .polica {
   color: #000;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   font-family: "Hacen Algeria Hd";
+  width: 131px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 70px;
+  margin-right: 56px;
 }
 .text {
   color: #858585;
 
   font-family: "Hacen Algeria Hd";
-  font-size: 10px;
-  font-weight: 1000;
-  margin-top: 16px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-left: 24px;
 }
 
 button {
   border-radius: 20px;
   background: #151414;
-  width: 120px;
-  height: 26px;
+  width: 155px;
+  height: 38px;
   color: #fff;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
-  margin-top: 10px;
-  margin-left: 93;
-  margin-right: 97;
+  margin-top: 15px;
   font-family: "Hacen Algeria Hd";
+  line-height: 23.01px;
 }
 
 img {
-  width: 90px;
+  width: 105px;
   height: 28px;
   flex-shrink: 0;
   background: white 50% / cover no-repeat;
@@ -73,6 +88,8 @@ body {
 }
 
 table {
+  height: 164px;
+  width: 352px;
   margin-top: 10px;
   margin-bottom: 0px;
   margin-left: 21px;
@@ -90,16 +107,17 @@ table {
 td {
   padding: 8px;
   font-family: Arial;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   text-align: right;
   border-bottom: 1px solid;
+  padding-right: 20px;
 }
 
 p {
   color: #b6b5b5;
   font-family: Poppins;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 1000;
 }
 .container {

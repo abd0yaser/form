@@ -20,6 +20,8 @@ function App() {
     <div className="App">
       {!isFormVisible && <Print handlePrint={handlePrint} />}
       {isFormVisible && <Form />}
+      {/* <Print /> */}
+      {/* <Form /> */}
     </div>
   );
 }
